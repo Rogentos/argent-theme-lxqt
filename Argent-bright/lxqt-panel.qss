@@ -27,7 +27,7 @@ Plugin,
 LXQtPanelPlugin {
     padding: 0;
     spacing: 20px;
-    qproperty-moveMarkerColor: #157DEC;
+    qproperty-moveMarkerColor: #e2c800;
 }
 
 Plugin  > QWidget,
@@ -86,7 +86,7 @@ QMenu::item {
 }
 
 QMenu::item:selected {
-    background: #157dec;
+    background: #e2c800;
     color: #f9f9f9;
 }
 
@@ -108,7 +108,7 @@ QMenu::right-arrow {
 
 QCalendarWidget QAbstractItemView:enabled {
     color: #2D2D2D;
-    selection-background-color: #157DEC;
+    selection-background-color: #e2c800;
     selection-color: #f9f9f9;
     border: 1px solid #6e6e6e;
     border-top: transparent;
@@ -162,13 +162,13 @@ QCalendarWidget QMenu {
 
 QCalendarWidget QMenu::item:selected {
     color: #DEDEDE;
-    background: #157DEC;
+    background: #e2c800;
 }
 
 QCalendarWidget QSpinBox {
     color: #DEDEDE;
     background-color: #4C4C4C;
-    selection-background-color: #157DEC;
+    selection-background-color: #e2c800;
     selection-color: #DEDEDE;
 }
 
@@ -188,7 +188,7 @@ QCalendarWidget QSpinBox {
 }
 
 #MainMenu:hover {
-    border: 1px solid #157dec;
+    border: 1px solid #e2c800;
 }
 
 #MainMenu:pressed {
@@ -209,7 +209,7 @@ QCalendarWidget QSpinBox {
 }
 
 #QuickLaunch QToolButton:hover{
-   border: 1px solid #157dec;
+   border: 1px solid #e2c800;
 }
 
 #QuickLaunch QToolButton:pressed {
@@ -227,12 +227,12 @@ QCalendarWidget QSpinBox {
 
 #TaskBar QToolButton:on{
     background: #cccccc;
-    border-bottom: 1px solid #157DEC;
+    border-bottom: 1px solid #e2c800;
 }
 
 #TaskBar QToolButton:hover{
-    background: #157dec;
-    border-bottom: 1px solid #157dec;
+    background: #e2c800;
+    border-bottom: 1px solid #e2c800;
 }
 
 #TaskBar QToolButton:pressed {
@@ -246,7 +246,7 @@ QCalendarWidget QSpinBox {
 
 #TaskBar LXQtGroupPopup {
     background: #dedede;
-    border: 1px solid #157DEC;
+    border: 1px solid #e2c800;
 }
 /*
  * Tray Plugin
@@ -271,7 +271,7 @@ TrayIcon {
 }
 
 #LXQtMountPlugin QToolButton:hover {
-    border: 1px solid #157dec;
+    border: 1px solid #e2c800;
 }
 
 #LXQtMountPlugin QToolButton:pressed {
@@ -301,7 +301,7 @@ TrayIcon {
 
 #LXQtMountPopup #EjectButton:hover,
 #LXQtMountPopup #DiskButton:hover {
-    border: 1px solid #157dec;
+    border: 1px solid #e2c800;
 }
 
 #LXQtMountPopup #NoDiskLabel {
@@ -319,7 +319,7 @@ TrayIcon {
 }
 
 #VolumePlugin QToolButton:hover {
-    border: 1px solid #157dec;
+    border: 1px solid #e2c800;
 }
 
 #VolumePlugin QToolButton:pressed {
@@ -344,7 +344,7 @@ VolumePopup  > QPushButton {
 }
 
 VolumePopup  > QPushButton:hover {
-    border: 1px solid #157dec;
+    border: 1px solid #e2c800;
     background: #96c7fb;
 }
 
@@ -367,7 +367,7 @@ VolumePopup  > QSlider::handle:vertical {
  }
 
 VolumePopup  > QSlider::add-page:vertical {
-    background: #157DEC;
+    background: #e2c800;
     border-radius: 0px;
 }
 
@@ -385,7 +385,7 @@ border-radius: 0px;
 }
 
 #Clock:hover {
-    border: 1px solid #157dec;
+    border: 1px solid #e2c800;
 }
 
 #Clock:pressed {
@@ -412,7 +412,7 @@ border-radius: 0px;
 }
 
 #ShowDesktop:hover {
-    border: 1px solid #157dec;
+    border: 1px solid #e2c800;
 }
 
 #ShowDesktop:pressed {
@@ -432,12 +432,12 @@ border-radius: 0px;
 
 #DesktopSwitch QToolButton:on {
     background: #cccccc;
-    border-bottom: 1px solid #157DEC;
+    border-bottom: 1px solid #e2c800;
 }
 
 #DesktopSwitch QToolButton:hover {
-    border: 1px solid #157dec;
-    border-bottom: 1px solid #157DEC;
+    border: 1px solid #e2c800;
+    border-bottom: 1px solid #e2c800;
 }
 
 #DesktopSwitch QToolButton:pressed {
@@ -459,7 +459,7 @@ border-radius: 0px;
 }
 
 #PanelScreenSaver:hover {
-    border: 1px solid #157dec;
+    border: 1px solid #e2c800;
 }
 
 #PanelScreenSaver:pressed {
@@ -479,7 +479,7 @@ border-radius: 0px;
 }
 
 #KbIndicator QLabel:enabled {
-    background: #157DEC;
+    background: #e2c800;
 }
 
 /*
@@ -491,7 +491,7 @@ border-radius: 0px;
 }
 
 #WorldClock:hover {
-    border: 1px solid #157dec;
+    border: 1px solid #e2c800;
 }
 
 #WorldClock QLabel {
@@ -545,7 +545,7 @@ border-radius: 0px;
 }
 
 #DomPlugin QToolButton:hover {
-    border: 1px solid #157dec;
+    border: 1px solid #e2c800;
 }
 
 #DomPlugin QToolButton:pressed {

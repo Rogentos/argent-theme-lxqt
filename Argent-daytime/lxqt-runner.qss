@@ -3,7 +3,7 @@
  */
 
 #panel {
-    border: 1px solid #157DEC;
+    border: 1px solid #e2c800;
     background:#dedede;
     padding: 2px;
     margin: 0px;
@@ -60,7 +60,7 @@ QToolButton:hover {
  */
 
 #commandList {
-    border: 1px solid #157DEC;
+    border: 1px solid #e2c800;
     border-top: transparent;
 }
 
