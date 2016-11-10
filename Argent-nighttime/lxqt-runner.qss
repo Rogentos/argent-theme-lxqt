@@ -51,7 +51,7 @@ QToolButton:hover {
     margin: 0px;
     background: 2d2d2d;
     color: #dedede;
-    selection-background-color: #1A80B6;
+    selection-background-color: #e2c800;
     selection-color: white;
 }
 
